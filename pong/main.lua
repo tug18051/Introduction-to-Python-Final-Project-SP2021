@@ -59,15 +59,17 @@ function love.load()
     push:setupScreen(VIRTUAL_WIDTH, VIRTUAL_HEIGHT, WINDOW_WIDTH, WINDOW_HEIGHT,
                      {fullscreen = false, vsync = true, resizable = true})
 
-    textbox = {
-        x = 110,
-        y = 150,
-        width = VIRTUAL_WIDTH / 2,
-        height = VIRTUAL_HEIGHT / 3,
-        text = '',
-        active = false,
-        colors = {background = {1, 1, 1, 1}, text = {1, 1, 1, 1}}
-    }
+    -- textbox = {
+    --     x = 110,
+    --     y = 150,
+    --     width = VIRTUAL_WIDTH / 2,
+    --     height = VIRTUAL_HEIGHT / 3,
+    --     text = '',
+    --     active = false,
+    --     colors = {background = {1, 1, 1, 1}, text = {1, 1, 1, 1}}
+    -- }
+    -- https://stackoverflow.com/questions/40756230/how-to-create-textbox-in-love2d
+    -- this is where I used the code to use a textbox
 
 end
 
